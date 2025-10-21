@@ -56,7 +56,7 @@ export default function Home() {
       </div>
       <div className=" flex flex-col md:flex-row md:flex space-y-6 md:space-x-6 mt-3 mb-3 justify-center items-center">
        
-          {displayedItems.slice(4).map((item) => (
+          {displayedItems.slice(3,6).map((item) => (
             <div key={item._id}>
               <Card className="flex h-80 w-80 p-0">
                 <CardContent className="p-0">
